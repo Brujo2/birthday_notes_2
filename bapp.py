@@ -35,7 +35,7 @@ st.markdown("""
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: #71D9E2;
+        background-color: #f6e0b5;
         border: none;
     }
     </style>
@@ -181,5 +181,6 @@ if st.button("✨ Give me a daily note"):
 
 
 st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+
 
 
