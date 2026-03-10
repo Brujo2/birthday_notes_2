@@ -160,7 +160,8 @@ if st.button("✨ Touch me all the time"):
         st.rerun()
 
 
-st.markdown("<p style='text-align: center; color: #ff460f; font-size: 12px;'>Happy Birthday 🎉🎂✨🍰🥳| 10 Years together</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #ff460f; font-size: 12px;'>Happy Birthday Jule| 10 Years together</p>", unsafe_allow_html=True)
+
 
 
 
