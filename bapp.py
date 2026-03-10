@@ -3,13 +3,13 @@ import random
 import time
 
 # Page Config for Mobile
-st.set_page_config(page_title="To My Forever", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="To My Girl", page_icon="❤️", layout="centered")
 
 # Custom CSS for the "Soft Warm" Look
 st.markdown("""
     <style>
     .stApp {
-        background-color: #FFF5F5;
+        background-color: #eea990;
     }
     .love-card {
         background-color: #FFFFFF;
@@ -27,7 +27,7 @@ st.markdown("""
         line-height: 1.6;
     }
     .stButton>button {
-        background-color: #FFB6C1;
+        background-color: #7FFFD4;
         color: white;
         border-radius: 25px;
         padding: 10px 25px;
@@ -35,13 +35,13 @@ st.markdown("""
         transition: 0.3s;
     }
     .stButton>button:hover {
-        background-color: #FF8C94;
+        background-color: #71D9E2;
         border: none;
     }
     </style>
     """, unsafe_allow_html=True)
 
-# The Message Database (Expand this to 100!)
+# The Message Database 
 messages = messages = [
     # --- The Classics & Your Requests ---
     "I know I am very hot.",
@@ -57,11 +57,11 @@ messages = messages = [
 
     # --- About the Kids & Family ---
     "Our kids are so lucky to have your heart as their guide.",
-    "Thank you for loving [Stepson's Name] with a love that knows no bounds.",
-    "The way you handle the chaos of three kids with such grace is a miracle.",
+    "Thank you for loving our family with a love that knows no bounds.",
+    "The way you handle our family with such grace is a miracle.",
     "I see so much of your beauty in our children’s smiles.",
     "You make parenting look like an art form.",
-    "Thank you for every sleepless night and every packed lunch.",
+    "Thank you for every sleepless night and every packed breakfast.",
     "Our boys are going to grow up to be great men because they have you.",
     "You are the glue that keeps us all together.",
     "Seeing you with the kids is when I love you the most.",
@@ -98,8 +98,8 @@ messages = messages = [
     "Thank you for believing in me when I didn't believe in myself.",
     "I love the way you think and the way you care.",
     "You are the smartest, strongest person I know.",
-    "Thank you for the last 3,650 days of happiness.",
-    "I love our late-night talks and our early-morning coffee.",
+    "Thank you for the last almost 10 years.",
+    "I love our late-night talks.",
     "You are my favorite person to grow old with.",
     "Life with you is a dream I never want to wake up from.",
 
@@ -172,7 +172,7 @@ st.markdown(f"""
 st.write(" ") # Spacer
 
 # The Interaction
-if st.button("✨ Give me a love note"):
+if st.button("✨ Give me a daily note"):
     # Simple "Star" animation feel by clearing and re-running
     with st.spinner("Thinking of a reason..."):
         time.sleep(0.5)
@@ -181,3 +181,4 @@ if st.button("✨ Give me a love note"):
 
 
 st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+
