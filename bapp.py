@@ -160,7 +160,7 @@ messages = messages = [
 if 'current_note' not in st.session_state:
     st.session_state.current_note = messages[0]
 
-st.markdown("<h2 style='text-align: center; color: #D81B60;'>For My Beautiful Wife</h2>", unsafe_allow_index=True)
+st.markdown("<h2 style='text-align: center; color: #D81B60;'>For My Beautiful Wife</h2>", unsafe_allow_html=True)
 
 # The Display Card
 st.markdown(f"""
@@ -178,5 +178,6 @@ if st.button("✨ Give me a love note"):
         time.sleep(0.5)
         st.session_state.current_note = random.choice(messages)
         st.rerun()
+
 
 st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
