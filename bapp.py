@@ -3,7 +3,7 @@ import random
 import time
 
 # Page Config for Mobile
-st.set_page_config(page_title="To My Girl, Happy Birthday 🎉🎂✨🍰🥳", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="To My Girl", page_icon="❤️", layout="centered")
 
 # Custom CSS for the "Soft Warm" Look
 st.markdown("""
@@ -65,6 +65,7 @@ messages = messages = [
      "You are so full of magic you don’t even know.",
      "Actually the grass is greener wherever you stand.",
      "There will be clouds but there will be rainbows too.",
+    "Stay happy and full of magic."
 
     # --- About the Kids & Family ---
     "Our kids are so lucky to have your heart as their guide.",
@@ -73,6 +74,7 @@ messages = messages = [
     "Thank you for every sleepless night and every packed breakfast.",
     "Our boys are going to grow up to be great men because they have you.",
     "Our family is your greatest masterpiece.",
+    "You have entered a chapter where it all goes right."
 
     # --- Romantic & Emotional ---
     "Thank you for being my peace in a loud world.",
@@ -150,7 +152,7 @@ st.markdown(f"""
 st.write(" ") # Spacer
 
 # The Interaction
-if st.button("✨ Touch me everday"):
+if st.button("✨ Touch me all the time"):
     # Simple "Star" animation feel by clearing and re-running
     with st.spinner("Thinking of a reason..."):
         time.sleep(1.5)
@@ -158,7 +160,8 @@ if st.button("✨ Touch me everday"):
         st.rerun()
 
 
-st.markdown("<p style='text-align: center; color: #ff460f; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #ff460f; font-size: 12px;'>Happy Birthday 🎉🎂✨🍰🥳| 10 Years together</p>", unsafe_allow_html=True)
+
 
 
 
