@@ -27,7 +27,7 @@ st.markdown("""
         line-height: 1.6;
     }
     .stButton>button {
-        background-color: #7FFFD4;
+        background-color: #f6e0b5;
         color: white;
         border-radius: 25px;
         padding: 10px 25px;
@@ -181,4 +181,5 @@ if st.button("✨ Give me a daily note"):
 
 
 st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+
 
