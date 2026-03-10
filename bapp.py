@@ -3,7 +3,7 @@ import random
 import time
 
 # Page Config for Mobile
-st.set_page_config(page_title="To My Girl", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="To My Girl, Happy Birthday 🎉🎂✨🍰🥳", page_icon="❤️", layout="centered")
 
 # Custom CSS for the "Soft Warm" Look
 st.markdown("""
@@ -27,8 +27,8 @@ st.markdown("""
         line-height: 1.6;
     }
     .stButton>button {
-        background-color: #f6e0b5;
-        color: white;
+        background-color: #f5bd3d;
+        color: green;
         border-radius: 25px;
         padding: 10px 25px;
         border: none;
@@ -44,52 +44,47 @@ st.markdown("""
 # The Message Database 
 messages = messages = [
     # --- The Classics & Your Requests ---
-    "I know I am very hot.",
-    "Watching you be a mom is my favorite thing.",
+    "Do you know you are very hot? Now you do!",
+    "Watching you be a mom is one of my favorite things.",
     "You’re the reason our house feels like home.",
-    "I’d choose you again every single time.",
     "Ten years down, a lifetime to go.",
     "You are the heartbeat of this family.",
-    "You are my best friend and my greatest adventure.",
+    "Be weird and wild with me.",
     "I love the life we’ve built together.",
-    "You still take my breath away, just like day one.",
+    "You and me raving until sunrise in another country.",
     "Thank you for saying 'Yes' ten years ago.",
+    "Got a weird feeling we going to be rich as fuck soon.",
+     "Love, light and fuck the system.",
+     "Everything is gonna work out for us and our family.",
+     "Don’t be surprised when life starts going good for you. You deserve it.",
+     "No one is you and that is your power.",
+     "I l❤️ve fucking you... I mean I fucking l❤️ve you.",
+     "Expect good things. Expect Magic. Expect the greatest unfolding for you. Expect positivity to meet you everywhere.",
+     "Don’t be afraid to shine. Remember the sun doesn’t give a fuck if it blinds you.",
+     "What is coming is better than what is gone.",
+     "You are so full of magic you don’t even know.",
+     "Actually the grass is greener wherever you stand.",
+     "There will be clouds but there will be rainbows too.",
 
     # --- About the Kids & Family ---
     "Our kids are so lucky to have your heart as their guide.",
     "Thank you for loving our family with a love that knows no bounds.",
-    "The way you handle our family with such grace is a miracle.",
     "I see so much of your beauty in our children’s smiles.",
-    "You make parenting look like an art form.",
     "Thank you for every sleepless night and every packed breakfast.",
     "Our boys are going to grow up to be great men because they have you.",
-    "You are the glue that keeps us all together.",
-    "Seeing you with the kids is when I love you the most.",
     "Our family is your greatest masterpiece.",
 
     # --- Romantic & Emotional ---
-    "You are my safe harbor in every storm.",
-    "I still get butterflies when I hear your laugh.",
-    "My favorite place in the world is right next to you.",
-    "You are the most beautiful woman I have ever known.",
     "Thank you for being my peace in a loud world.",
-    "I love you more than words could ever capture.",
     "You are the poetry I never knew I could write.",
     "Everything good in my life started with you.",
-    "You are my sun, my moon, and all my stars.",
     "Your love is the greatest gift I’ve ever received.",
 
     # --- Short & Sweet (Haiku Style / Short) ---
-    "Ten years of magic / Three kids and a heart so full / You are my always.",
-    "Your smile is my home.",
-    "Forever isn't long enough.",
-    "My soul honors yours.",
+    "Ten years of magic.",
     "Home is wherever you are.",
     "You + Me = Everything.",
     "Still crushing on you.",
-    "Grace in every step.",
-    "Love lives in your hug.",
-    "You are my 'once in a lifetime'.",
 
     # --- Appreciation & Partnership ---
     "Thank you for being my teammate in this crazy life.",
@@ -104,55 +99,38 @@ messages = messages = [
     "Life with you is a dream I never want to wake up from.",
 
     # --- Add 50 more variations of these to reach 100 ---
-    "You’re still the one.",
-    "I love our 'us' time.",
+    "You are stronger than your fears, braver than your doubts, and more beautiful than words can ever say.",
+    "Watching you grow, fight, and chase your dreams is one of the greatest privileges of my life.",
     "You are remarkably beautiful.",
     "Thank you for your endless patience.",
-    "Our kids have the best mom in the universe.",
     "I love your soul.",
     "You are my North Star.",
-    "Thank you for the 10 best years of my life.",
-    "You are my world.",
+    "Your courage, kindness, and love make me proud to call you my wife every day.",
     "I'm so proud to be your husband.",
     "To the moon and back.",
     "You are simply incredible.",
-    "My heart is yours forever.",
     "You make me a better man.",
-    "I love the way you love us.",
-    "You are my favorite view.",
-    "Every day is better with you.",
-    "You are pure sunshine.",
     "I love our little tribe.",
-    "You are my dream come true.",
+    "Whenever life feels heavy, remember you don’t have to carry it alone. I am always here beside you.",
     "Thank you for choosing me.",
     "You are the queen of this house.",
     "I love your laugh.",
-    "You are my everything.",
-    "Cheers to 10 more years.",
+    "Cheers to many more years.",
     "You are a blessing.",
-    "I adore you.",
-    "You are my soulmate.",
-    "I love our life.",
+    "Even on the days you doubt yourself, remember I see the incredible woman you are.",
     "You are so special to me.",
-    "I cherish you.",
-    "You are my light.",
-    "I am yours, always.",
+    "I fell in love with your heart, but I stay in love with your strength every single day.",
+    "Your dreams matter to me because you matter to me.",
+    "You inspire me every day just by being you.",
     "You are stunning.",
     "I love our family adventures.",
-    "You are my heart's desire.",
+    "No matter how hard the day gets, remember: you are stronger than you think and more loved than you know.",
     "Thank you for being you.",
-    "I love you endlessly.",
-    "You are my treasure.",
-    "I'm so lucky.",
-    "You are the best part of my day.",
-    "I love you to infinity.",
-    "You are my sunshine.",
-    "I love you more today than yesterday.",
-    "You are my forever love.",
-    "I love our home because you're in it.",
+    "You make life brighter, and I will always be your biggest supporter.",
+    "You are the reason I believe beautiful things happen in life.",
     "You are a wonder.",
     "I love you, babe.",
-    "You are the love of my life.",
+    "Keep shining. The world needs your light.",
     "Happy Birthday to my amazing wife."
 ]
 
@@ -172,15 +150,16 @@ st.markdown(f"""
 st.write(" ") # Spacer
 
 # The Interaction
-if st.button("✨ Give me a daily note"):
+if st.button("✨ Touch me everday"):
     # Simple "Star" animation feel by clearing and re-running
     with st.spinner("Thinking of a reason..."):
-        time.sleep(3.5)
+        time.sleep(1.5)
         st.session_state.current_note = random.choice(messages)
         st.rerun()
 
 
-st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #ff460f; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+
 
 
 
