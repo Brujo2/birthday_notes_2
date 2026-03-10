@@ -175,12 +175,13 @@ st.write(" ") # Spacer
 if st.button("✨ Give me a daily note"):
     # Simple "Star" animation feel by clearing and re-running
     with st.spinner("Thinking of a reason..."):
-        time.sleep(0.5)
+        time.sleep(3.5)
         st.session_state.current_note = random.choice(messages)
         st.rerun()
 
 
 st.markdown("<p style='text-align: center; color: #BC8F8F; font-size: 12px;'>Forever Yours | 10 Years</p>", unsafe_allow_html=True)
+
 
 
 
